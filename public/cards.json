@@ -1,0 +1,123 @@
+[
+    {
+      "picture": "https://i.ibb.co/C1yNKm0/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#0052ff26",
+      "text_button_bg_color": "#0052FF",
+      "description": "Clean water is essential for preventing waterborne diseases such as cholera, diarrhea, and typhoid, which can be particularly harmful to children. Access to clean water reduces the risk of illness and can save lives.",
+      "price": "$299.99"
+    },
+    {
+      "picture": "https://i.ibb.co/5GQThcN/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#ff444a26",
+      "text_button_bg_color": "#FF444A",
+      "description": "Good education begins with well-qualified and dedicated teachers. Teachers play a crucial role in shaping a child's learning experience. They should be knowledgeable, caring, and able to create a positive and inclusive classroom environment.",
+      "price": "$49.95"
+    },
+    {
+      "picture": "https://i.ibb.co/93x5Nh1/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#79c23f26",
+      "text_button_bg_color": "#79C23F",
+      "description": "Used clothing drives provide clothing items to individuals and families who may not have the means to purchase new clothes. This can include people facing financial hardship, homelessness, or disaster survivors.",
+      "price": "$79.99"
+    },
+    {
+      "picture": "https://i.ibb.co/nP5c76N/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#F87147",
+      "card_bg_color": "#f8714726",
+      "text_button_bg_color": "#F87147",
+      "description": "Better Food for Everyone is a broad and aspirational concept aimed at improving the quality and accessibility of food for people around the world. It encompasses various initiatives, policies, and practices focused on",
+      "price": "$39.99"
+    },
+    {
+        "picture": "https://i.ibb.co/nP5c76N/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#f8714726",
+        "text_button_bg_color": "#F87147",
+        "description": "Better Food for Everyone is a broad and aspirational concept aimed at improving the quality and accessibility of food for people around the world. It encompasses various initiatives, policies, and practices focused on",
+        "price": "$39.99"
+    },
+    {
+        "picture": "https://i.ibb.co/93x5Nh1/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "#79c23f26",
+        "text_button_bg_color": "#79C23F",
+        "description": "Used clothing drives provide clothing items to individuals and families who may not have the means to purchase new clothes. This can include people facing financial hardship, homelessness, or disaster survivors.",
+        "price": "$79.99"
+    },
+    {
+        "picture": "https://i.ibb.co/5GQThcN/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#ff444a26",
+        "text_button_bg_color": "#FF444A",
+        "description": "Good education begins with well-qualified and dedicated teachers. Teachers play a crucial role in shaping a child's learning experience. They should be knowledgeable, caring, and able to create a positive and inclusive classroom environment.",
+        "price": "$49.95"
+    },
+    {
+        "picture": "https://i.ibb.co/C1yNKm0/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052ff26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Clean water is essential for preventing waterborne diseases such as cholera, diarrhea, and typhoid, which can be particularly harmful to children. Access to clean water reduces the risk of illness and can save lives.",
+        "price": "$299.99"
+    },
+    {
+        "picture": "https://i.ibb.co/C1yNKm0/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052ff26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Clean water is essential for preventing waterborne diseases such as cholera, diarrhea, and typhoid, which can be particularly harmful to children. Access to clean water reduces the risk of illness and can save lives.",
+        "price": "$299.99"
+    },
+    {
+        "picture": "https://i.ibb.co/5GQThcN/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#ff444a26",
+        "text_button_bg_color": "#FF444A",
+        "description": "Good education begins with well-qualified and dedicated teachers. Teachers play a crucial role in shaping a child's learning experience. They should be knowledgeable, caring, and able to create a positive and inclusive classroom environment.",
+        "price": "$49.95"
+    },
+    {
+        "picture": "https://i.ibb.co/93x5Nh1/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "#79c23f26",
+        "text_button_bg_color": "#79C23F",
+        "description": "Used clothing drives provide clothing items to individuals and families who may not have the means to purchase new clothes. This can include people facing financial hardship, homelessness, or disaster survivors.",
+        "price": "$79.99"
+    },
+    {
+        "picture": "https://i.ibb.co/nP5c76N/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#f8714726",
+        "text_button_bg_color": "#F87147",
+        "description": "Better Food for Everyone is a broad and aspirational concept aimed at improving the quality and accessibility of food for people around the world. It encompasses various initiatives, policies, and practices focused on",
+        "price": "$39.99"
+    }
+  ]
+  
