@@ -14,12 +14,12 @@ const AllCards = ({card}) => {
           <img src={picture} className="h-full w-full object-cover" />
         </div>
         <div className="p-6">
-          <p className="mt-2 block text-sm text-white font-medium leading-normal antialiased p-[2px] mb-2"
+          <button className="mt-2 block text-sm font-medium leading-normal antialiased p-[2px] mb-2"
           style={{color: category_bg_color
         }}
           >
             {category}
-          </p>
+          </button>
           <div className="mb-2 flex items-center justify-between">
             <p className="block text-base font-semibold leading-relaxed text-blue-gray-900 antialiased"
             style={{color: text_button_bg_color}}

@@ -7,22 +7,23 @@ const DonationDetails = ({card}) => {
         <div className="flex justify-center items-center mt-5">
              <div className="relative flex w-76 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
              >
+              
         <div className="relative mx-4 mt-4 h-76 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
           <img src={picture} className="h-full w-full object-cover" />
+          <button className="absolute bottom-5 left-28 p-4 bg-[#FF444A] text-[#FFF] text-sm font-semibold rounded">Donate: {price}</button>
         </div>
         <div className="p-6">
-          <p className="mt-2 block text-sm text-white font-medium leading-normal antialiased p-[2px] mb-2"
+          <p className="mt-2 block text-4xl text-[#0B0B0B] font-bold leading-normal antialiased p-[2px] mb-2"
           >
-            {category}
+            {title}
           </p>
           <div className="mb-2 flex items-center justify-between">
-            <p className="block text-base font-semibold leading-relaxed text-blue-gray-900 antialiased"
+            <p className="block text-base text-[gray] font-normal leading-relaxed antialiased"
             >
-              {title}
+              {description}
             </p>
            
           </div>
-          <p>{description}</p>
           
         </div>
         
