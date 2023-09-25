@@ -30,12 +30,12 @@ const DonationDetail = ({ card }) => {
         </div>
         <div className="p-6">
           <button
-            className="mb-4 block font-sans text-base font-semibold leading-relaxed tracking-normal  antialiased"
-            style={{ color: category_bg_color }}
+            className="mb-4 block text-white text-base font-semibold leading-relaxed tracking-normal  antialiased"
+            style={{ background: category_bg_color }}
           >
             {category}
           </button>
-          <h4 className="mb-2 block font-sans text-[#0B0B0B] text-2xl font-semibold leading-snug tracking-normal antialiased">
+          <h4 className="mb-2 block text-[#0B0B0B] text-2xl font-semibold leading-snug tracking-normal antialiased">
             {title}
           </h4>
           <p

@@ -1,8 +1,7 @@
-# React + Vite
+Add at least 3 Project features 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. My Project first feature will navbar, here it contains a logo in the left side and right side contains the three nav links named home donation and statics.This first nav link home will shown the home route data properly with an active routing color hex codes #FF444A. The second nav link donation contains the donation details of donation details page information and it is also an active routing color hex codes #FF444A. The last nav like statistics contains the pie chart of donation calculation of local storage and it is also an active routing color hex codes #FF444A.
 
-Currently, two official plugins are available:
+2. Banner section is the second feature here it can contains a heading title and a search field input with search button this search field input functionality is when we can type the category of our card it will show the full details of card like our homepage layout such as an image title and category.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Third feature is all the cards which can contains the information of our project and it can contains an image title and category and it has a functionality when we click any where from this card it will navigates us to the donation details page where we can see the image properly with a button can shows the donation amount which we can get from our fake api data and when we click the donation button it will shows an alert donation added successfully which can be stored in local storage.This page also has the project category title and description.

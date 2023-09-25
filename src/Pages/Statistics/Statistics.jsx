@@ -4,7 +4,7 @@ import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
 
 const Statistics = () => {
     const cards = useLoaderData();
-    // console.log(cards);
+     console.log(cards);
 
     const data = cards.map((card) =>({
         name: card.category,

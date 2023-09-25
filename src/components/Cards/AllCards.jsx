@@ -14,8 +14,8 @@ const AllCards = ({card}) => {
           <img src={picture} className="h-full w-full object-cover" />
         </div>
         <div className="p-6">
-          <button className="mt-2 block text-sm font-medium leading-normal antialiased p-[2px] mb-2"
-          style={{color: category_bg_color
+          <button className="mt-2 block text-sm text-white font-medium leading-normal antialiased p-[2px] mb-2"
+          style={{backgroundColor: category_bg_color
         }}
           >
             {category}
