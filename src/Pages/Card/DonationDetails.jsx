@@ -1,7 +1,30 @@
 
+import swal from "sweetalert";
 
 const DonationDetails = ({card}) => {
-    const { id, picture, title, category, description, price } = card || {};
+    const { id, picture, title, description, price } = card || {};
+
+    
+    const handleAddToDonations = () =>{
+        const addedDonationArray = [];
+        const dontationItems = JSON.parse(localStorage.getItem('donations'));
+        if(!dontationItems){
+            addedDonationArray .push(card);
+            localStorage.setItem('donations', JSON.stringify(addedDonationArray ));
+            swal("Good Job!", "Product Added Successfully!", "success");
+        }
+        else{
+            const isExits = dontationItems?.find(card=>card.id === id);
+            if(!isExits){
+                addedDonationArray.push(...dontationItems, card);
+                localStorage.setItem('donations', JSON.stringify(addedDonationArray)); 
+                swal("Good Job!", "Product Added Successfully!", "success");
+            }
+            else{
+                swal("Already Exits", "no duplicate", "error");
+            }
+        }
+    }
 
     return (
         <div className="flex justify-center items-center mt-5">
@@ -10,7 +33,7 @@ const DonationDetails = ({card}) => {
               
         <div className="relative mx-4 mt-4 h-76 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
           <img src={picture} className="h-full w-full object-cover" />
-          <button className="absolute bottom-5 left-28 p-4 bg-[#FF444A] text-[#FFF] text-sm font-semibold rounded">Donate: {price}</button>
+          <button onClick={handleAddToDonations} className="absolute bottom-5 left-28 p-4 bg-[#FF444A] text-[#FFF] text-sm font-semibold rounded">Donate: {price}</button>
         </div>
         <div className="p-6">
           <p className="mt-2 block text-4xl text-[#0B0B0B] font-bold leading-normal antialiased p-[2px] mb-2"
