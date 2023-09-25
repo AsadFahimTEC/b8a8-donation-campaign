@@ -21,7 +21,7 @@ const Banner = () => {
             <input type="submit" value="Search" />
           </button>
         </div>
-        {/* <img src="./Clothing.png" alt="" className="absolute inset-0 w-full h-[300px] object-cover opacity-10 bg-cover  bg-center" /> */}
+        <img src="./Clothing.png" alt="" className="absolute inset-0 -z-10 w-full h-[300px] object-cover opacity-5 bg-cover  bg-center" />
       </div>
     );
 };

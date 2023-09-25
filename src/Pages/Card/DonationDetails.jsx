@@ -1,15 +1,19 @@
 
+
 import swal from "sweetalert";
 
-const DonationDetails = ({card}) => {
+const DonationDetails = ({card, onDonate}) => {
     const { id, picture, title, description, price } = card || {};
+
+  
 
     
     const handleAddToDonations = () =>{
         const addedDonationArray = [];
         const dontationItems = JSON.parse(localStorage.getItem('donations'));
+
         if(!dontationItems){
-            addedDonationArray .push(card);
+            addedDonationArray.push(card);
             localStorage.setItem('donations', JSON.stringify(addedDonationArray ));
             swal("Good Job!", "Product Added Successfully!", "success");
         }

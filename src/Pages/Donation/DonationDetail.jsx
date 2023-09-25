@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const DonationDetail = ({ card }) => {
+    
   const {
     id,
     picture,
@@ -42,7 +44,7 @@ const DonationDetail = ({ card }) => {
           >
             {price}
           </p>
-          <Link className="inline-block" to="#">
+          <Link className="inline-block" to={`/card/${id}`}>
             <button
               className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-[#FFF] text-center align-middle text-lg font-semibold  transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"

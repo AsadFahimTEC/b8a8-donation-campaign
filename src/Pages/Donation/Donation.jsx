@@ -18,25 +18,16 @@ const Donation = () => {
         }
     }, [])
 
-    const handleRemove = () =>{
-        localStorage.clear();
-        setDonation([]);
-        setNoData('No data found')
-    }
+   
 
     return (
         <div>
         {
             nodata ? <p className="h-[80vh] flex justify-center items-center">{nodata}</p>: <div>
 
-               <div>
-               {
-                    donation.length > 0 && <button onClick={handleRemove} className="px-5 bg-green-200 block mx-auto">Deleted All Favorites</button>
-                }
               
-               </div>
 
-                <div className="grid grid-cols-2 gap-5">
+                <div className="grid md:grid-cols-2 gap-5">
                    {
                     isShow ?  donation.map((card => <DonationDetail key={card.id}card={card}></DonationDetail>))
                     :
