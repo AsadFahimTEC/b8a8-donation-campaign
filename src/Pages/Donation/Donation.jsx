@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationDetails from "../Card/DonationDetails";
+import DonationDetail from "./DonationDetail";
 
 
 const Donation = () => {
@@ -37,14 +38,14 @@ const Donation = () => {
 
                 <div className="grid grid-cols-2 gap-5">
                    {
-                    isShow ?  donation.map((card => <DonationDetails key={card.id}card={card}></DonationDetails>))
+                    isShow ?  donation.map((card => <DonationDetail key={card.id}card={card}></DonationDetail>))
                     :
 
-                    donation.slice(0, 2).map((card => <DonationDetails key={card.id} card={card}></DonationDetails>))
+                    donation.slice(0, 4).map((card => <DonationDetail key={card.id} card={card}></DonationDetail>))
                    }
                 </div>
                {
-                donation.length > 4 &&  <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto mt-5">{isShow ? 'See Less' : 'See More'}</button>
+                donation.length > 4 &&  <button onClick={()=>setIsShow(!isShow)} className="px-3 m-5 rounded-lg text-white bg-[#009444] block mx-auto mt-5">{isShow ? '' : 'See All'}</button>
                }
             </div>
         }
