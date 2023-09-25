@@ -2,10 +2,6 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import DonationDetails from "./DonationDetails";
 
-
-
-
-
 const Card = () => {
     const [card, setCard] = useState(null);
     const {id} = useParams();

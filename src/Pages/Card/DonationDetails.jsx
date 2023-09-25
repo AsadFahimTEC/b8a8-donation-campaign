@@ -37,7 +37,7 @@ const DonationDetails = ({card, onDonate}) => {
               
         <div className="relative mx-4 mt-4 h-76 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
           <img src={picture} className="h-full w-full object-cover" />
-          <button onClick={handleAddToDonations} className="absolute bottom-5 left-28 p-4 bg-[#FF444A] text-[#FFF] text-sm font-semibold rounded">Donate: {price}</button>
+          <button onClick={handleAddToDonations} className="absolute bottom-5 left-28 p-4 bg-[#FF444A] text-[#FFF] text-sm font-semibold rounded">Donate: ${price}</button>
         </div>
         <div className="p-6">
           <p className="mt-2 block text-4xl text-[#0B0B0B] font-bold leading-normal antialiased p-[2px] mb-2"

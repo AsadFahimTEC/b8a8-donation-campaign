@@ -42,7 +42,7 @@ const DonationDetail = ({ card }) => {
             className="mb-8 block text-base font-semibold leading-relaxed antialiased"
             style={{ color: text_button_bg_color }}
           >
-            {price}
+            ${price}
           </p>
           <Link className="inline-block" to={`/card/${id}`}>
             <button

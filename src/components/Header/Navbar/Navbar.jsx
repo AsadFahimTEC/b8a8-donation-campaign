@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
               <nav className="sm:flex sm:justify-between sm:items-center py-7 px-5">
         <Logo></Logo>
-        <ul className="flex gap-5 text-lg font-normal">
+        <ul className="flex flex-col md:flex-row gap-5 text-lg font-normal">
           <li>
             <NavLink
               to="/"
