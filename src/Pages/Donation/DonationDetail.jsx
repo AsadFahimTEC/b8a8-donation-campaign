@@ -21,7 +21,7 @@ const DonationDetail = ({ card }) => {
       className="flex justify-center items-center mx-5 my-5 md:mx-10"
       style={{ background: card_bg_color }}
     >
-      <div className="relative w-full max-w-[48rem] rounded-xl  bg-clip-border shadow-md">
+      <div className="relative w-full flex flex-row max-w-[48rem] rounded-xl  bg-clip-border shadow-md">
         <div className="relative m-0 w-full overflow-hidden rounded-xl rounded-r-none bg-clip-border">
           <img
             src={picture}
@@ -32,7 +32,7 @@ const DonationDetail = ({ card }) => {
         <div className="p-6">
           <button
             className="mb-4 block text-white text-base font-semibold leading-relaxed tracking-normal  antialiased"
-            style={{ background: category_bg_color }}
+            style={{backgroundColor: card_bg_color, color:text_button_bg_color}}
           >
             {category}
           </button>
@@ -45,9 +45,9 @@ const DonationDetail = ({ card }) => {
           >
             ${price}
           </p>
-          <Link className="inline-block" to={`/card/${id}`}>
+          <Link to={`/card/${id}`}>
             <button
-              className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-[#FFF] text-center align-middle text-lg font-semibold  transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              className="flex items-center gap-2 rounded-lg py-3 px-3 text-[#FFF] text-center"
               type="button"
               style={{ backgroundColor: text_button_bg_color }}
             >
