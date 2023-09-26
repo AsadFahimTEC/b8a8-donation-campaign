@@ -14,6 +14,8 @@ const DonationDetail = ({ card }) => {
     price,
   } = card || {};
 
+ 
+
   return (
     <div
       className="flex justify-center items-center mx-5 my-5 md:mx-10"

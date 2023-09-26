@@ -1,8 +1,29 @@
+import { useState } from "react";
 import swal from "sweetalert";
 
 const DonationDetails = ({ card }) => {
   const { id, picture, title, description, price, text_button_bg_color } =
     card || {};
+
+    const yourDonation = parseFloat(localStorage.getItem("totalDonation")) || 0;
+    const [totalDonation, setTotalDonation] = useState(yourDonation);
+  
+    const handleDonate = () => {
+      if (price) {
+        const donationAmount = parseFloat(price);
+  
+        const updateTotalDonation = totalDonation + donationAmount;
+  
+        setTotalDonation(donationAmount);
+        localStorage.setItem("yourDonation", donationAmount.toString());
+  
+        setTotalDonation(updateTotalDonation);
+        localStorage.setItem(
+          "totalDonation",
+          updateTotalDonation.toString()
+        );
+      }
+    };
 
   const handleAddToDonations = () => {
     const addedDonationArray = [];
@@ -24,6 +45,11 @@ const DonationDetails = ({ card }) => {
     }
   };
 
+  const handleAllDonations = () =>{
+    handleDonate();
+    handleAddToDonations();
+  }
+
   return (
     <div className="flex justify-center items-center mt-5">
       <div className="relative flex w-76 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -32,7 +58,7 @@ const DonationDetails = ({ card }) => {
 
           <div className="relative">
           <button
-            onClick={handleAddToDonations}
+            onClick={handleAllDonations}
             className="absolute z-10 bottom-5 left-28 p-4 text-[#FFF] text-sm font-semibold rounded"
             style={{ background: text_button_bg_color }}
           >
