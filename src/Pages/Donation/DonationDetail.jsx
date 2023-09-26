@@ -16,11 +16,11 @@ const DonationDetail = ({ card }) => {
 
   return (
     <div
-      className="flex justify-center items-center mx-10 my-10"
+      className="flex justify-center items-center mx-5 my-5 md:mx-10"
       style={{ background: card_bg_color }}
     >
-      <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl  bg-clip-border  shadow-md">
-        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border">
+      <div className="relative w-full max-w-[48rem] rounded-xl  bg-clip-border shadow-md">
+        <div className="relative m-0 w-full overflow-hidden rounded-xl rounded-r-none bg-clip-border">
           <img
             src={picture}
             alt="image"

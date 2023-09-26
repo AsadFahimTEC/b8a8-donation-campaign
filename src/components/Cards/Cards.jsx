@@ -16,19 +16,19 @@ const Cards = () => {
       };
 
       return (
-        <div className="py-10 mx-5 md:mx-10 my-5 md:my-10">
-          <div className="w-2/5 flex mt-5 gap-5 mx-auto">
+        <div className="py-10 mx-5 md:mx-15 my-5 md:my-15">
+          <div className="w-full md:w-2/5 flex mt-5 gap-5 mx-auto">
             <input
               type="text"
               name="name"
               id=""
-              className="flex-1 p-2 rounded-lg border-[1px solid #DEDEDE] bg-[#FFF] text-[rgba(11, 11, 11, 0.40)] text-sm"
+              className="w-full md:flex-1 p-2 rounded-lg border-[1px solid #DEDEDE] bg-[#FFF] text-[rgba(11, 11, 11, 0.40)] text-sm"
               placeholder="Search here...."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
             <button
-              className="bg-[#FF444A] text-[#FFF] text-base font-semibold py-2 px-4 rounded-lg"
+              className="w-full md:w-auto bg-[#FF444A] text-[#FFF] text-base font-semibold py-2  px-4 rounded-lg"
               onClick={handleSearch}
             >
               Search
